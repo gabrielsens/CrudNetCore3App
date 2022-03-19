@@ -1,0 +1,11 @@
+﻿dotnet tool install --global dotnet-ef --version 3.1.2
+
+dotnet ef migrations add MigracaoInicial (nome da migração a escolha)
+
+* ef migrations remove para voltar a migração criada
+
+dotnet ef database update --Aqui cria a tabela no banco
+
+*scafold
+
+dotnet ef migrations remove
